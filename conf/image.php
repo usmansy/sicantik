@@ -20,7 +20,7 @@ $text_color = imagecolorallocate($image, 255, 255, 255);
 
 imagefilledrectangle($image, 0, 0, 200, 38, $background_color);
 
-$font = dirname(__FILE__) . '/../font/Abeezee.otf';
+$font = dirname(__FILE__) . '/font/Abeezee.otf';
 
 imagettftext($image, 20, 0, 60, 28, $text_color, $font, $captcha_code);
 
